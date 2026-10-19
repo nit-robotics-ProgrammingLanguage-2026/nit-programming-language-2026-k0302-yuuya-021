@@ -3,7 +3,7 @@
 int main(void) {
     /* 課題0302: このプログラムは間違っています。修正してください */
     double d;
-    scanf("%d", &d);
-    printf("%d", d); 
+    scanf("%lf", &d);
+    printf("%f\n", d); 
     return 0;
 }
